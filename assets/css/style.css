@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center; 
+   background-image: url(../img/espe2.jpg);
+
+}
+
+
+input[type="text"], input[type="password"]{
+    font-size: 20px;
+    outline: none;
+    padding: 20px;
+    display: block;
+    width: 300px;
+    border-radius: 5px;
+    border: 5px solid rgba(11, 49, 106, 0.564);
+    margin: 20px auto;
+    text-align: center;
+
+}
+input[type="submit"]{
+    font-size: 30px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    background: rgb(19, 82, 171);
+    width: 220px;
+    margin:20px auto;
+    margin-top: 0;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+a{
+    color: black;
+}
+input[type="submit"]:hover{
+    background-color: rgb(43, 223, 223);
+}
+header{ 
+    border-bottom: 8px solid rgb(36, 163, 112);
+    padding: 20px 0;
+    margin-top: center;
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+
+}
+header a{
+    text-decoration: none;
+    color: black;
+}   
+strong {
+    color: rgb(212, 25, 25);
+}
